@@ -1,0 +1,50 @@
+#include <stdio.h>   
+
+int main(){
+
+int a,b,islem;
+
+printf ("İslemi seciniz.Toplama icin 1, cikarma icin 2, carpma icin 3, bolme icin 4");
+scanf("%d",&islem);
+printf("Birinci sayiyi giriniz.");
+scanf("%d",&a);
+printf("Ikinci sayiyi giriniz.");
+scanf("%d",&b);
+if (islem==1){
+	
+printf("%d\n",a+b);	
+	
+	
+}
+else if (islem==2){
+	
+printf("%d\n",a-b);	
+	
+	
+}
+else if (islem==3){
+	
+printf("%d\n",a*b);	
+	
+	
+}
+else if (islem==4){
+	
+printf("%d\n",a/b);	
+	
+	
+}
+else
+printf("Hata");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
